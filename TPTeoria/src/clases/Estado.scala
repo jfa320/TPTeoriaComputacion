@@ -1,5 +1,3 @@
 package clases
 
-class Estado(val nombre:String) {
-  
-}
+class Estado(val nombre:String) 
