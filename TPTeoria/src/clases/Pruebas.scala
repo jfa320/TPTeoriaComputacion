@@ -11,7 +11,10 @@ object Pruebas {
     val lista=List('B', 'B', '0', '0','B','B')
     
     val cinta=new Cinta(lista,2)
+   
     
+    
+    maquina.transiciones.get(new Estado("q"),'1')
     
     println(maquina.procesar(new Estado("q"),cinta))
   }
