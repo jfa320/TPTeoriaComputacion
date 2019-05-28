@@ -5,6 +5,7 @@ object Pruebas {
     
     //Que test serian interesantes en scala test?
     //Los atributos de clases tienen que ser privados? De ser asi,usar getters?
+    //Como hacer otra MT para probar?
     
     //prueba 1 (con MT de ejemplo de las diapos)
     
