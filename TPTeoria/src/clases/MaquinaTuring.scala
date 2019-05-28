@@ -38,7 +38,7 @@ final class MaquinaTuring(val transiciones: Map[(Estado, Char), (Estado, Char, D
     
     @annotation.tailrec
     def loop(estadoActual:Estado,cinta:Cinta):(Estado, Cinta)={
-      if(estadoActual.nombre=="f"){
+      if(estadoActual.esFinal){
         (estadoActual,new Cinta(cinta.listaDeChar.reverse,cinta.posActual)) //reverse ya que :: al agregar char me los agrega al comienzo y no al final
       }
       else{

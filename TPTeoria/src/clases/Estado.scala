@@ -1,9 +1,13 @@
 package clases
 
-class Estado(val nombre:String) {
+class Estado(val nombre:String,val esFinal:Boolean) {
   
   override def toString():String={
-    s"Estado actual: <$nombre> "
+    if(esFinal){
+      s"Estado actual: <$nombre> y es final"}
+    else{
+      s"Estado actual: <$nombre> y no es final"
+    }
   }
   
 }
